@@ -11,10 +11,6 @@ wget -O replit.nix https://github.com/sxbai/reader-on-replit/raw/master/replit.n
 cd ..
 wget -O main.sh https://github.com/sxbai/reader-on-replit/raw/master/main.sh
 cp -r build/.replit . && cp -r build/replit.nix .
-tag1=$(wget -qO- -t1 -T2 "https://api.github.com/repos/hectorqin/reader/releases/latest" | jq -r '.tag_name')
-tag2=$(wget -qO- -t1 -T2 "https://api.github.com/repos/hectorqin/reader/releases/latest" | grep "tag_name" | head -n 1 | awk -F "v" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g')
-wget -O reader.jar https://github.com/hectorqin/reader/releases/download/${tag1}/reader-pro-${tag2}.jar \
-&& java -jar -Duser.timezone=Asia/Shanghai reader.jar
 echo "Reader阅读服务器端 作者:（假装大佬）"
 echo "GitHub开源地址：https://github.com/hectorqin/reader"
 echo "Reader阅读服务器端搭建完成！！！"
