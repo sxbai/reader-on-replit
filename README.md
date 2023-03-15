@@ -31,3 +31,15 @@ Reader(多用户)一键脚本
 ```
 bash <(curl -s https://raw.githubusercontent.com/sxbai/reader-on-replit/master/install2.sh)
 ```
+## Reader(多用户)说明
+Reader文档演示是这样的:
+```bash
+--reader.app.secureKey=管理密码 --reader.app.inviteCode=注册邀请码
+```
+但因为replit免费版是公开可见的，所以这样设置明文任何人都会看到你的账户和密码。
+所以需要在`Secrets`这里设置环境变量内容如下：
+![](https://img.sxbai.repl.co/img/2023-03-01110753.png)
+![](https://img.sxbai.repl.co/img/2023-03-01110916.png)
+![](https://img.sxbai.repl.co/img/2023-03-01111027.png)
+`testpassword`仅作为演示的管理密码，`testcode`仅作为演示的邀请码
+设置好自己的管理密码及邀请码，点击Run按钮就可以了！
