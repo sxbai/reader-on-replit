@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/hectorqin/reader" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://github.com/sxbai/reader-on-replit/blob/master/readerlogo.jpg" alt="Reader logo" />
+        <img width="100" src="https://raw.iqiq.io/sxbai/reader-on-replit/master/readerlogo.jpg" alt="Reader logo" />
     </a>
 </p>
 
