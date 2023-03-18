@@ -38,8 +38,8 @@ Reader文档演示是这样的:
 ```
 但因为replit免费版是公开可见的，所以这样设置明文任何人都会看到你的账户和密码。
 所以首次搭建Reader使用，需要在`Secrets`这里设置环境变量内容如下：
-![](https://github.com/sxbai/reader-on-replit/blob/master/2023-03-15182732.png)
-![](https://github.com/sxbai/reader-on-replit/blob/master/2023-03-15182846.png)
-![](https://github.com/sxbai/reader-on-replit/blob/master/2023-03-15182943.png)
+![](https://raw.iqiq.io/sxbai/reader-on-replit/master/2023-03-15182732.png)
+![](https://raw.iqiq.io/sxbai/reader-on-replit/master/2023-03-15182846.png)
+![](https://raw.iqiq.io/sxbai/reader-on-replit/master/2023-03-15182943.png)
 `testpassword`仅作为演示的管理密码，`testcode`仅作为演示的邀请码
 设置好自己的管理密码及邀请码，点击Run按钮就可以了！
